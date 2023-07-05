@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rangoo</string>
+    <string name="_COM_RANGO_PREFERENCES">com.rangoo.user.session</string>
+    <string name="sem_fome_essa_semana">Apparently, you\'re not hungry this week!</string>
+    <string name="deixe_me_ver_opcoes">" Let me see the options"</string>
+    <string name="email">Email</string>
+    <string name="aniversario">Birthday</string>
+    <string name="endereco">Address</string>
+    <string name="contato">Contact</string>
+    <string name="senha">Password</string>
+    <string name="cadastre_se">Sign Up</string>
+    <string name="entrar">Log In</string>
+    <string name="redefinir_senha">Reset Password</string>
+    <string name="recuperar_senha">Recover Password</string>
+    <string name="ou">or</string>
+    <string name="sair">Log Out</string>
+    <string name="concluir">Finish</string>
+    <string name="nome">Name</string>
+    <string name="remove_item">Remove Item</string>
+    <string name="confirm_remove_item">Confirm item removal?</string>
+    <string name="confirmar">Confirm</string>
+    <string name="cancelar">Cancel</string>
+    <string name="solicitacao_redefinicao_enviada">Password reset request sent to your email.</string>
+    <string name="user_google_error">Invalid Google User</string>
+    <string name="user_login_error">Invalid User: Check the fields and try again!</string>
+    <string name="user_login_success">User Authenticated Successfully</string>
+    <string name="error_login_google">Error when trying to connect with Google!</string>
+    <string name="error_signout">Error while signing out, please try again</string>
+    <string name="imagem_alterada">Image successfully changed!</string>
+    <string name="error_update_imagem">Failed to save the image!</string>
+    <string name="error_save_imagem">Failed to save the image!</string>
+    <string name="signUp_success">User successfully registered!</string>
+    <string name="signUp_error">Error when registering a new user</string>
+</resources>

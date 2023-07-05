@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rangoo</string>
+    <string name="_COM_RANGO_PREFERENCES">com.rangoo.user.session</string>
+    <string name="sem_fome_essa_semana">Apparemment, vous n\'avez pas faim cette semaine !</string>
+    <string name="deixe_me_ver_opcoes">Laissez-moi voir les options</string>
+    <string name="email">Email</string>
+    <string name="aniversario">Anniversaire</string>
+    <string name="endereco">Adresse</string>
+    <string name="contato">Contact</string>
+    <string name="senha">Mot de passe</string>
+    <string name="cadastre_se">S\'inscrire</string>
+    <string name="entrar">Se connecter</string>
+    <string name="redefinir_senha">Réinitialiser le mot de passe</string>
+    <string name="recuperar_senha">Récupérer le mot de passe</string>
+    <string name="ou">ou</string>
+    <string name="sair">Déconnexion</string>
+    <string name="concluir">Terminer</string>
+    <string name="nome">Nom</string>
+    <string name="remove_item">Supprimer l\'élément</string>
+    <string name="confirm_remove_item">Confirmer la suppression de l\'élément ?</string>
+    <string name="confirmar">Confirmer</string>
+    <string name="cancelar">Annuler</string>
+    <string name="solicitacao_redefinicao_enviada">Demande de réinitialisation du mot de passe envoyée à votre adresse e-mail.</string>
+    <string name="user_google_error">Utilisateur Google invalide</string>
+    <string name="user_login_error">Utilisateur invalide : Vérifiez les champs et réessayez !</string>
+    <string name="user_login_success">Utilisateur authentifié avec succès</string>
+    <string name="error_login_google">Erreur lors de la tentative de connexion avec Google !</string>
+    <string name="error_signout">Erreur lors de la déconnexion, veuillez réessayer</string>
+    <string name="imagem_alterada">Image modifiée avec succès !</string>
+    <string name="error_update_imagem">Échec de l\'enregistrement de l\'image !</string>
+    <string name="error_save_imagem">Échec de l\'enregistrement de l\'image !</string>
+    <string name="signUp_success">Utilisateur enregistré avec succès !</string>
+    <string name="signUp_error">Erreur lors de l\'enregistrement d\'un nouvel utilisateur</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="EditTextCorrect">
+        <item name="android:background">@drawable/edittext_correct_background</item>
+    </style>
+
+    <style name="EditTextIncorrect">
+        <item name="android:background">@drawable/edittext_incorrect_background</item>
+    </style>
+</resources>
+

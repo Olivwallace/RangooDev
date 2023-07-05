@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".Activities.SignUpActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lucasrangoo"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cadastre_se"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="25dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/txt_name"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/nome"
+        android:paddingLeft="10dp"
+        android:background="@drawable/edittext_border"
+        android:layout_margin="5dp"
+        />
+
+    <EditText
+        android:id="@+id/txt_cell"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/contato"
+        android:paddingLeft="10dp"
+        android:background="@drawable/edittext_border"
+        android:layout_margin="5dp"
+        />
+
+    <EditText
+        android:id="@+id/txt_adress"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/endereco"
+        android:paddingLeft="10dp"
+        android:background="@drawable/edittext_border"
+        android:layout_margin="5dp"
+        />
+
+    <EditText
+        android:id="@+id/txt_birth"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:clickable="true"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:inputType="none"
+        android:hint="@string/aniversario"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:drawableEnd="@drawable/ic_calendar"
+        android:background="@drawable/edittext_border"
+        android:layout_margin="5dp"
+        />
+
+    <EditText
+        android:id="@+id/txt_email"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/email"
+        android:paddingLeft="10dp"
+        android:background="@drawable/edittext_border"
+        android:layout_margin="5dp"
+        />
+
+    <EditText
+        android:id="@+id/txt_password"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/senha"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:background="@drawable/edittext_border"
+        android:layout_margin="5dp"
+        />
+
+    <Button
+        android:id="@+id/btn_conclude"
+        android:layout_width="200dp"
+        android:layout_height="57dp"
+        android:text="@string/concluir"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/brave"/>
+
+</LinearLayout>

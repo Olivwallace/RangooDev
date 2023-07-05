@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="12dp"
+        android:visibility="visible">
+
+        <ImageButton
+            android:id="@+id/btn_open_drawer"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@color/transparent"
+            android:onClick="openDrawer"
+            android:background="@drawable/menu"/>
+    </RelativeLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/nav_menu"
+        app:headerLayout="@layout/nav_header">
+    </com.google.android.material.navigation.NavigationView>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".Activities.EmptyHomeActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sem_fome_essa_semana"
+            android:textSize="25dp"
+            android:layout_marginTop="80dp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/camaleao_cozinheiro"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"/>
+
+        <Button
+            android:id="@+id/btn_weekmenu"
+            android:layout_width="250dp"
+            android:layout_height="57dp"
+            android:text="@string/deixe_me_ver_opcoes"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/brave"/>
+
+    </LinearLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

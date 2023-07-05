@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "806586442475",
+    "firebase_url": "https://rangooapp-16032-default-rtdb.firebaseio.com",
+    "project_id": "rangooapp-16032",
+    "storage_bucket": "rangooapp-16032.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:806586442475:android:924e23d784cdc04dad14ae",
+        "android_client_info": {
+          "package_name": "com.example.rangoo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "806586442475-ku098r7djsqn5orkhmdcce8gcqgpq6de.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA74W-l2jeCE12RVuynl8DmP_64VAaxl7g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "806586442475-21rrj7ftf8eclo7rr4jvu8qmfbo1u7cr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "806586442475-ido2vcl3l33v6hee5s7p1bg6n0fgoao8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.rangoo"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
